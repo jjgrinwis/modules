@@ -62,7 +62,7 @@ resource "akamai_appsec_match_target" "match_target" {
 /* resource "akamai_appsec_activations" "activation" {
   config_id           = data.akamai_appsec_configuration.security_configuration.config_id
   network             = "STAGING"
-  note                = "This configuration was activatedby Terraform for testing purposes only."
+  note                = "This configuration was activated by Terraform for testing purposes only."
   notification_emails = var.email
   version             = data.akamai_appsec_configuration.security_configuration.latest_version
 } */
